@@ -1,0 +1,13 @@
+@import url(//fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+/*one click will make the opacity lower and
+ dblclick will make the p disappear
+works only on http */
+
+p:hover {
+	outline: 1.5px solid #66FFCC;
+}
+
+.opacity {
+	opacity: 0.2 !important;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "poly exstention",
+  "description": "one click will make the opacity lower and dblclick will make the p disappear
+   works only on http",
+  "version": "1.0",
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "content_scripts": [{
+    "matches": ["http://*/*"],
+    "js": ["jquery-1.10.2.min.js","example.js"],
+    "css": ["alef.css"]
+  }],
+
+  "manifest_version": 2
+}
