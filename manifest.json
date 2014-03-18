@@ -9,7 +9,7 @@
   ],
 
   "content_scripts": [{
-    "matches": ["http://*/*"],
+     "matches": ["<all_urls>"],
     "js": ["jquery-1.10.2.min.js","example.js"],
     "css": ["alef.css"]
   }],
